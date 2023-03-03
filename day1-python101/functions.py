@@ -15,7 +15,7 @@ def big_double(number1: int, number2: int):
 
 # Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string
 def repeat(text: str, number: int):
-    if number < 0: return ""
+    if number < 0 : return ""
     return text * number
 
 # Write a function without any arguments. Have it return the string `'na'` repeated 10 times followed by the string `' batman!'`. Use the `repeat` function you used before to accomplish this
